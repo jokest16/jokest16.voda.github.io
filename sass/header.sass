@@ -1,0 +1,103 @@
+//верстка header
+@import "bourbon"
+@import "var.sass"
+*
+  box-sizing: border-box
+nav
+  li
+    transition: all 0.9s ease
+    &:hover
+      color: $blue
+      transform: scale(1.2)
+    a
+      color: #000
+      &:hover
+        color: #000
+        text-decoration: none
+      &:focus
+        outline: none
+        color: $blue
+        text-decoration: none
+input[type="button"]
+  background-color: $red
+  color: #fff
+  font-family: "RobotoLight",sans-serif
+  font-size: em(15px)
+  border-radius: 5px
+  border: none
+  padding: 10px 37px
+  margin-top: 10px
+.button
+  background-color: $red
+  color: #fff
+  font-family: "RobotoLight",sans-serif
+  font-size: em(15px)
+  border-radius: 5px
+  border: none
+  padding: 5px 37px
+  margin-top: 10px
+.name-tel
+  padding: 5px
+  font-family: "RobotoRegular",sans-serif
+  input[type="text"]
+    color: grey
+    margin-bottom: 10px
+.red
+  border: 20px solid $red
+header
+  background:url(../img/header-img/headerbg.png) no-repeat
+  h1
+    font-family: "RobotoRegular",sans-serif
+    font-size: em(45px)
+    font-weight: lighter
+  nav
+    position: fixed
+    width: 99.99%
+    text-align: center
+    background: $white
+    opacity: 0.9
+    z-index: 100
+    li
+      display: inline-block
+      font-size: em(35px)
+      font-family: "BebasBook",sans-serif
+      text-transform: uppercase
+      vertical-align: middle
+      margin-right: 55px
+    .logo
+      width: 190px
+      height: 78px
+      background:url(../img/header-img/logo.png) no-repeat center
+  .promo
+    padding: 80px
+    text-align: center
+    font-family: "RobotoRegular",sans-serif
+    font-weight: normal
+    font-size: em(21px)
+    color: #fff
+  .advantages-item
+    display: inline-block
+    margin-bottom: 90px
+    margin-top: 40px
+    font-family: "RobotoMedium",sans-serif
+    text-align: center
+    font-size: em(20px)
+    line-height: 1
+    color: #fff
+    background-color: #000
+    border-radius: 7px
+    background:url(../img/header-img/bg-item.png)
+    h3
+      margin: 0 auto
+      padding-top: 10px
+      text-transform: uppercase
+      font-family: "BebasBook",sans-serif
+      font-size: em(26px)
+    .bl-quotes
+      color: $blue
+    .h3
+      display: block
+      padding-top: 10px
+      font-family: "BebasBook",sans-serif
+      text-transform: uppercase
+      font-size: em(20px)
